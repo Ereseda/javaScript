@@ -1,5 +1,7 @@
-var nome = "Eli";
-var idade = 40;
-var Curso = "Curso de javaScript";
+const nome = "Eli";
+/*nome = "João";*/
 
-document.write("O aluno " + nome + ", tem a idade de " + idade + ".Esta inscrito no " + Curso);
+var curso = "Curso de javaScript";
+curso =" Curso de PHP";
+
+document.write("O aluno(a) "+ nome + " está inscrito no "+ curso);
